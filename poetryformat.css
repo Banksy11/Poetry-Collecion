@@ -1,0 +1,53 @@
+h1{
+    font-size:40px;
+}
+
+h2{
+    font-size:32px;
+}
+
+.title{
+    border:10px  solid slateblue;
+    text-align: center;
+    font-family:monospace;
+}
+
+details{
+    color:white;
+    font-family:monospace;
+    background-color:mediumslateblue;
+    margin: 5px 0 5px 0;
+    font-size: 16px;
+    border: 3px solid slateblue;
+    overflow: hidden;
+    border-radius: 0 0 8px 8px;
+}
+
+
+summary{
+    color:white;
+    background-color: slateblue;
+    font-size:20px;
+    padding:20px;
+}
+
+summary:hover{
+    border:3px solid mediumslateblue;
+}
+
+details .col{
+    width:48%;
+    float:left;
+    min-width:400px;
+
+}
+
+details .coll{
+    width:25%;
+    float:left;
+}
+
+.picture{
+    align-self: center;
+}
+
